@@ -1,17 +1,31 @@
-# moviee
+# 🎬 Moviee
 
-A new Flutter project.
+A beautifully designed movie discovery app built with **Flutter**, leveraging **clean architecture**, **Riverpod**, and **Hive** for performance, modularity, and offline capabilities.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔥 Trending and Now Playing movies from TMDb
+- 🔍 Smart Search with debounce/throttle support
+- 📌 Bookmark movies using Hive for persistent local storage
+- 📄 Detailed movie view using a custom bottom sheet
+- 🌙 Dark-themed UI optimized for media browsing
+- 🧼 Clean Code Architecture (Domain/Data/Presentation layers)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Moviee-app
+## 🧱 Built With
+
+| Technology     | Role                                      |
+|----------------|-------------------------------------------|
+| [Flutter](https://flutter.dev) | Cross-platform UI framework            |
+| [Riverpod](https://riverpod.dev) | State management                      |
+| [Hive](https://docs.hivedb.dev/) | Lightweight local NoSQL database      |
+| [TMDb API](https://www.themoviedb.org/documentation/api) | Movie data provider                   |
+| Repository Pattern | Decouples data and logic layers          |
+
+---
+
+## 🏛️ Project Architecture
+
