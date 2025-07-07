@@ -14,13 +14,21 @@ class MoviesSlider extends StatefulWidget {
 class _MoviesSliderState extends State<MoviesSlider> {
   int activeIndex = 0;
   final controller = CarouselSliderController();
-  final urlImages = [
-    '/wqfu3bPLJaEWJVk3QOm0rKhxf1A.jpg',
-    '/sItIskd5xpiE64bBWYwZintkGf3.jpg',
-    "/xABhldZaMb6wfCH5oigV333OYnb.jpg",
-    "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
-    "/U0A4zWh6XbJt1jDAPuGqKcu4ga.jpg",
-    "/qwOwDHUPCcDRmdQu8dWCzIVMEgu.jpg",
+  final urlImages =[
+    "/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+    "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+    "/1WP2MrTIXJ8NI5tvqBk4ZD4ju9O.jpg",
+    "/khohu1IKmgGNvETjEaxZaWBw4fr.jpg",
+    "/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
+    "/lXAyZHGAh0YrAi8x7ekCnoquace.jpg",
+    "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+    "/wqfu3bPLJaEWJVk3QOm0rKhxf1A.jpg",
+    "/r0td1J4kALobMwjPKLGe7RwJ07o.jpg",
+    "/A6mxBwvvv63JXZm3xXKv4SugE0L.jpg",
+    "/lVgE5oLzf7ABmzyASEVcjYyHI41.jpg",
+    "/yqsCU5XOP2mkbFamzAqbqntmfav.jpg",
+    "/vqBmyAj0Xm9LnS1xe1MSlMAJyHq.jpg",
+    "/tObSf1VzzHt9xB0csanFtb3DRjf.jpg",
   ];
 
   @override

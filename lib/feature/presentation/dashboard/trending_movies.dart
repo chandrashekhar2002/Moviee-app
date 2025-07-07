@@ -69,6 +69,7 @@ class TrendingMoviesScreen extends ConsumerWidget {
               scrollDirection: Axis.horizontal,
             ),
           ),
+          SizedBox(height: 30),
           const Padding(
             padding: EdgeInsets.all(8.0),
             child: ShiningTitle(text: 'Now Playing'),

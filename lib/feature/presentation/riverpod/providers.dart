@@ -16,9 +16,6 @@ import 'trending_movies_provider.dart';
 final StateProvider<List<Result>?> trendingMoviesList =
     StateProvider<List<Result>?>((ref) => []);
 
-final StateProvider<List<Result>?> nowPlayingMoviesList =
-    StateProvider<List<Result>?>((ref) => []);
-
 /// const to improve ui effectively
 final StateProvider<List<Widget>> navigationList =
     StateProvider<List<Widget>>((ref) => [

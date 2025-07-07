@@ -14,7 +14,7 @@ class RecommendedMoviesScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final movies = ref.watch(nowPlayingMoviesList);
+    final movies = ref.watch(nowPlayingProvider);
     print('movies now playing:${movies}');
     if (movies == null || movies.isEmpty) {
       return const Center(child: Text('No Movies found', style: TextStyle(color: Colors.white),));
@@ -28,7 +28,7 @@ class RecommendedMoviesScreen extends ConsumerWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              ShiningTitle(text: 'Most Recommended'),
+              const ShiningTitle(text: 'Most Recommended'),
               const SizedBox(
                 height: 20,
               ),
@@ -49,7 +49,9 @@ class RecommendedMoviesScreen extends ConsumerWidget {
                         children: [
                           CachedNetworkImage(
                               imageUrl:
-                                  imageBaseUrl + movies[index].backdropPath!),
+                                  imageBaseUrl + movies[index].backdropPath!,
+                            placeholder: (context, url) => CircularProgressIndicator(),
+                            errorWidget: (context, url, error) => Icon(Icons.error),),
                           Container(
                             height: 40,
                             padding: EdgeInsets.symmetric(horizontal: 15),
