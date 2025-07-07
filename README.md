@@ -26,6 +26,5 @@ A beautifully designed movie discovery app built with **Flutter**, leveraging **
 | Repository Pattern | Decouples data and logic layers          |
 
 ---
-
-## 🏛️ Project Architecture
+[Video Link]([https://flutter.dev](https://drive.google.com/file/d/1MeHtC3GgPBwPpupa4n_sagZgaP6Gbhkt/view?usp=drive_link))
 
