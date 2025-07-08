@@ -2,6 +2,13 @@
 
 A beautifully designed movie discovery app built with **Flutter**, leveraging **clean architecture**, **Riverpod**, and **Hive** for performance, modularity, and offline capabilities.
 
+
+
+---
+[Video Link](https://drive.google.com/file/d/1vDffum-KOG6czRgvmMjuIRs_KsjeWS_p/view?usp=drive_link)
+
+
+
 ---
 
 ## 🚀 Features
@@ -24,8 +31,4 @@ A beautifully designed movie discovery app built with **Flutter**, leveraging **
 | [Hive](https://docs.hivedb.dev/) | Lightweight local NoSQL database      |
 | [TMDb API](https://www.themoviedb.org/documentation/api) | Movie data provider                   |
 | Repository Pattern | Decouples data and logic layers          |
-
----
-[Video Link](https://drive.google.com/file/d/1vDffum-KOG6czRgvmMjuIRs_KsjeWS_p/view?usp=drive_link)
-
 
